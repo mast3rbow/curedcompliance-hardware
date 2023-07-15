@@ -1,10 +1,7 @@
 # main
-import sleep
+from time import sleep
 from boot import update
 
 while True:
-    print("latest github update")
     sleep(10)
-    print("checking for an update")
-    
-    update()
+    print("updated for from github for 10 seconds")
